@@ -19,21 +19,9 @@ namespace LegoMiniFigures.MiniFigures
             Accessories = accessories;
             Console.WriteLine($"General Grievous' head is {head}. Torso and legs are {torso} & {legs}. He always has {accessories} with him.");
         }
-        public void Run()
-        {
-            Console.WriteLine("Grievous runs like a coward");
-        }
-        public void Attack()
-        {
-            Console.WriteLine("Grievous swings his many lightsabers");
-        }
-        public void Greeting()
-        {
-            Console.WriteLine("General Kenobi!");
-        }
-        public void Dies()
-        {
-            Console.WriteLine("*gets shot* AHHHhHhHhH *falls over*");
-        }
+        public void Run() => Console.WriteLine("Grievous runs like a coward");
+        public void Attack() => Console.WriteLine("Grievous swings his many lightsabers");
+        public void Greeting() => Console.WriteLine("General Kenobi!");
+        public void Dies() => Console.WriteLine("*gets shot* AHHHhHhHhH *falls over*");
     }
 }

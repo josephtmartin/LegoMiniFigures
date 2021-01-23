@@ -19,21 +19,9 @@ namespace LegoMiniFigures.MiniFigures
             Accessories = accessories;
             Console.WriteLine($"Obi-Wan Kenobi's head is {head}. Torso and legs are {torso} & {legs}. He always carries {accessories} with him.");
         }
-        public void Jump()
-        {
-            Console.WriteLine("Obi-Wan Kenobi jumps");
-        }
-        public void Attack()
-        {
-            Console.WriteLine("Obi-Wan Kenobi swings his lightsaber");
-        }
-        public void Greeting()
-        {
-            Console.WriteLine("Hello there!");
-        }
-        public void Kills()
-        {
-            Console.WriteLine("*hangs on edge* *grabs blaster* *shoots grievous*");
-        }
+        public void Jump() => Console.WriteLine("Obi-Wan Kenobi jumps");
+        public void Attack() => Console.WriteLine("Obi-Wan Kenobi swings his lightsaber");
+        public void Greeting() => Console.WriteLine("Hello there!");
+        public void Kills() => Console.WriteLine("*hangs on edge* *grabs blaster* *shoots grievous*");
     }
 }
